@@ -28,7 +28,16 @@ header {
     background-color: green;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding-top: 40px;
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+}
+
+header > p {
+    padding: 0px 10px 50px 10px;
 }
 
 nav {
