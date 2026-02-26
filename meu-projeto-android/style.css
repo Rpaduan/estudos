@@ -51,6 +51,12 @@ nav > a:hover {
     text-decoration: none;
 }
 
+main {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
 a.externo {
     text-decoration: none;
     background-color: var(--cor1);
@@ -71,8 +77,3 @@ strong {
     color: var(--cor5);
 }
 
-main {
-    width: 1200px;
-    margin: auto;
-    background-color: white;
-}
