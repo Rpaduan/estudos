@@ -75,7 +75,8 @@ nav > a:hover {
 }
 
 main {
-    width: 1040px;
+    max-width: 1000px;
+    min-width: 320px;
     margin: auto;
     background-color: white;
 }
@@ -104,12 +105,14 @@ h2 {
     font-size: 1.3em;
     padding: 0px 5px;
 }
+
 a.externo {
     text-decoration: none;
     background-color: var(--cor1);
     color: var(--cor5);
     border-radius: 3px;
     padding: 2px;
+    white-space: nowrap;
 }
 
 a:hover {
@@ -124,8 +127,15 @@ strong {
     color: var(--cor4);
 }
 
-picture.droids {
+img {
+    display: block;
     margin: auto;
+    width: 100%;
+}
+
+img#android {
+    width: 400px;
+    padding: 10px;
 }
 
 div {
