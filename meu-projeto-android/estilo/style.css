@@ -144,17 +144,18 @@ img#android {
     padding: 10px;
 }
 
-div {
+div.video {
     background-color: var(--cor5);
-    margin-top: 20px;
-    padding: 0px 10px 0px 10px;
+    position: relative;
+    padding-bottom: 50%;
 }
 
-iframe {
-    display: flex;
-    margin: auto;
-    padding: 20px;
-    width: 100%;
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
@@ -162,6 +163,7 @@ aside {
      padding: 20px;
      margin: 20px;
      border-radius: 10px;
+     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.377);
 }
 
 aside > h2 {
@@ -173,6 +175,12 @@ aside > h2 {
     margin: -20px -20px 20px;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
 }
 
 aside a:hover {
@@ -190,16 +198,17 @@ main  p {
 footer {
     text-align: center;
     background-color: var(--cor5);
-    color: var(--cor0);
+    color: white;
+    font-size: 0.9em;
     padding: 5px;
 }
 
 footer > a {
-    color: var(--cor1);
+    color: white;
     text-decoration: none;
 }
 
 footer > a:hover {
-    color: var(--cor0);
+    color: var(--cor1);
 }
 
