@@ -188,8 +188,8 @@ aside a:hover {
     color: var(--cor3);
 }
 
-main  p {
-    margin: 15px 0px;
+p#final {
+    margin: 20px;
     line-height: 2em;
     text-indent: 40px;
     text-align: justify;
