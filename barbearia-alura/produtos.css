@@ -5,6 +5,7 @@ body {
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
+    height: 250px;
 }
 
 .caixa {
@@ -69,7 +70,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .produto-descricao {
