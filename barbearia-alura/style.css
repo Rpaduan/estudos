@@ -5,7 +5,6 @@ body {
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
-    height: 250px;
 }
 
 .caixa {
@@ -255,7 +254,8 @@ td, th {
     }
 
     nav {
-        position: static;    
+        position: static;   
+        text-align: center;
     }
 
     .lista-beneficios, .imagem-beneficios {
